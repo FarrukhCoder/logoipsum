@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    color: #19191b;
+    background-color: #fff;
+    font-family: 'Mulish' , sans-serif;
+}
+
+.container{
+    width: 1100px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.btn{
+    font-family: 'DMSans' ,sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    border-radius: 10px;
+}
+.text{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.6px;
+    color: #696871;
+}
+
+/* HEADER START */
+.header-row{
+    justify-content: space-between;
+    align-items: center;
+}
+.site-header{
+    padding-top: 30px;
+}
+.nav-item:not(:last-child){
+    margin-right: 50px;
+}
+.nav-link{
+    color: #696871;
+    font-family: 'DMSans' , sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+.nav-item.active{
+    padding-bottom: 12px;
+    border-bottom: 2px solid #5454D4;
+}
+.nav-item.active .nav-link{
+    color: #19191B;
+}
+.btn-started{
+    padding: 20px 60px;
+    background: #FF7143;
+    color: #fff;
+}
+/* HEADER END */
+
+/* HERO CONTENT */
+.hero-content{
+    padding-top: 110px;
+}
+.hero-desc{
+    width: 460px;
+}
+.hero-tittle{
+    font-family: 'DMSans' , sans-serif;
+    font-size: 80px;
+    line-height: 77px;
+    font-weight: 700;
+    letter-spacing: -2.5px;
+    margin-bottom: 30px;
+}
+.hero-text{
+    margin-bottom: 30px;
+}
+.hero-link{
+    padding: 20px 60px;
+    background: #5454D4;
+    color: #fff;
+    margin-right: 40px;
+}
+.hero-btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #e7e7e7;
+    background-color: transparent;
+}
+.hero-btns > *{
+    cursor: pointer;
+}
+.hero-btns{
+    align-items: center;
+}
+.hero-btn .bx{
+    font-size: 40px;
+}
+.hero-row{
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-img{
+    position: relative;
+    left: 120px;
+}
+
